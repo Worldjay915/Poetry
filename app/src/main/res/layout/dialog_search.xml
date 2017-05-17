@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing"
+    >
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@mipmap/toubu"
+     android:id="@+id/ln_search">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/tv_key"
+         android:text="关键字查询"
+         android:textSize="25sp"
+         android:textColor="@color/white"
+         android:layout_gravity="center_vertical"
+         android:layout_marginLeft="90dp"
+         />
+
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_rg"
+        android:layout_below="@+id/ln_search"
+        >
+
+     <RadioGroup
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:id="@+id/rg_01">
+
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/rb_01"
+             android:layout_marginLeft="15dp"
+             android:layout_gravity="center_vertical"
+             android:background="@mipmap/ic_menu_record"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/tv_biaoti"
+             android:text="标题"
+             android:textColor="@color/blank"
+             android:textSize="15sp"
+             android:layout_gravity="center_vertical"
+            />
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/rb_02"
+             android:layout_marginLeft="30dp"
+             android:layout_gravity="center_vertical"
+             android:background="@mipmap/ic_menu_record"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/tv_shige"
+             android:text="诗歌"
+             android:textColor="@color/blank"
+             android:textSize="15sp"
+             android:layout_gravity="center_vertical"/>
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/rb_03"
+            android:layout_marginLeft="30dp"
+             android:layout_gravity="center_vertical"
+             android:background="@mipmap/ic_menu_record"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/tv_zhujie"
+             android:text="注解"
+             android:textColor="@color/blank"
+             android:textSize="15sp"
+             android:layout_gravity="center_vertical"/>
+
+     </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/li_et"
+        android:layout_below="@+id/ln_rg"
+        >
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/et_search"
+            android:background="@drawable/et_selector"
+            android:singleLine="true"
+            android:hint="请输入查找的关键字"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_search"
+            android:textColor="@color/blank"
+            android:text="查询"
+            android:textSize="15sp"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+
+
+</RelativeLayout>

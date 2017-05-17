@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/beijing">
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/tv_increase"
+          android:text="增大字体"
+          android:textColor="@color/blank"
+          android:textSize="25sp"/>
+
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/rb_increase"
+          android:background="@mipmap/ic_menu_record"
+          android:layout_marginLeft="100dp"/>
+
+   </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#969696"
+        >
+    </View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_deincrease"
+            android:text="减小字体"
+            android:textColor="@color/blank"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_deincrease"
+            android:background="@mipmap/ic_menu_record"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#969696"
+        >
+    </View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_talk"
+            android:text="语音朗读"
+            android:textColor="@color/blank"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_talk"
+            android:background="@mipmap/ic_menu_record"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

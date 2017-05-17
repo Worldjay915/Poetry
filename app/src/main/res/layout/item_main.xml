@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_first"
+            android:text="行宫"
+            android:textColor="@color/blank"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_heng"
+            android:text="--"
+            android:layout_toRightOf="@+id/tv_first"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/blank"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_leibie"
+            android:text="五言绝句"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="38dp"
+            android:textColor="@color/blank"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_author"
+            android:text="元稹"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/tv_heng"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/blank"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_more"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/more"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

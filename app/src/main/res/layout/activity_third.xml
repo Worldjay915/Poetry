@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@mipmap/beijing">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/toubu"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_back"
+                android:background="@mipmap/fanhui"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_tangshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="唐诗300首"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="55dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_setting"
+                android:background="@mipmap/btn_shezhi"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:id="@+id/lnear_01"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_title"
+                android:text="行宫"
+                android:textSize="25sp"
+                android:textColor="@color/blank"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lnear_02"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_shiren1"
+                android:text="作者:"
+                android:textSize="13sp"
+                android:textColor="@color/blank"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_shiren"
+                android:text="元稹"
+                android:textSize="13sp"
+                android:textColor="@color/blank"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lnear_03"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_content"
+                android:text="寂寞古行宫，宫花寂寞红 白头宫女在，闲坐说玄宗"
+                android:textSize="27sp"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/blank"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/lnear_04"
+            >
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_desc"
+                android:text="注解"
+                android:textSize="20sp"
+                android:textColor="@color/blank"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

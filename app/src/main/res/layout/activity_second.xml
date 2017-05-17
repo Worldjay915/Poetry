@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing"
+    >
+
+    <include
+        android:id="@+id/ll_nne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_below="@id/ll_nne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ln_02"
+        android:layout_above="@+id/ln_03"
+        >
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/List_poems"
+            android:background="@mipmap/beijing"
+
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/ln_03"
+        android:background="@mipmap/dibu"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_all"
+            android:drawableTop="@mipmap/btn_quanbu"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_line1"
+            android:drawableTop="@mipmap/fengexian1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_zuozhe"
+            android:drawableTop="@mipmap/btn_zuozheanxiaxiaoguo"
+            android:layout_weight="1"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_line2"
+            android:drawableTop="@mipmap/fengexian1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_leibie"
+            android:drawableTop="@mipmap/btn_leibie"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
