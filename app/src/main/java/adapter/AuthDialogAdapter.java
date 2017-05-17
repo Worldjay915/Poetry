@@ -27,6 +27,7 @@ public class AuthDialogAdapter extends BaseAdapter {
         this.context = context ;
         this.list = list;
         inflater = LayoutInflater.from(context);
+        //
 
     }
     @Override
